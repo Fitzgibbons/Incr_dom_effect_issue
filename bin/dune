@@ -1,0 +1,9 @@
+(executables
+ (names main)
+ (libraries core incr_dom lib)
+ (modes js)
+ (js_of_ocaml
+  (flags
+   (:standard --enable=effects)))
+ (preprocess
+  (pps js_of_ocaml-ppx ppx_jane)))
