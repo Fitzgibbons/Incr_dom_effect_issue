@@ -3,7 +3,7 @@
 (generate_opam_files true)
 
 (package
- (name bonsai_effect_issue)
+ (name incr_dom_effect_issue)
  (depends
   (core
    (= v0.16.1))
